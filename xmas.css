@@ -1,0 +1,82 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:'Arial' , sans-serif;  
+  background-color: #f3f3f3;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #063607;
+  padding: 32px;
+}
+
+header {
+  background-image: url(mas.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  padding: 4px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+}
+
+.main_menu {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: rgba(190, 41, 25, 1);
+}
+
+ul.main_menu {
+  margin-top: 15px;
+}
+
+.main_menu li{
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+}
+
+.main_menu a{
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  font-variant: small-caps;
+}
+
+section {
+  height: 100vh;
+  padding-top: 20px;
+  width: 50%;
+}
+
+p, h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transform: translateX(50%) translateY(50%);
+  color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+div.a {
+  text-align: center;
+}
+
+.kapitel1bild {
+  transform: translateX(90%) translateY(40%);
+}
+
+
